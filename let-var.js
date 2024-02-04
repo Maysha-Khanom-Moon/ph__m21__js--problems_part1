@@ -14,3 +14,11 @@
 })();
 
 // console.log(i); function-scoped
+
+
+/**
+ * ---- why shouldn't use var ----
+ * 1. it's function-scoped which is unusual from others
+ * 2. it become the global variable. it is become the window property of browser.
+ * 3. as a global variable, sometimes it can be overwrite other's property.
+ */
