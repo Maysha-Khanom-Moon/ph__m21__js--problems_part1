@@ -2,8 +2,8 @@
  * ------------- variable types --------------
  * 
  * 1. const --> value can't change
- * 2. let --> functional scope and value can be change
- * 3. var --> global or block scope and value can be change
+ * 2. let --> block scope and value can be change
+ * 3. var --> global scoped or funtion-scoped and value can be change
  * 
  * _______________ primitive _______________
  * 1. null
